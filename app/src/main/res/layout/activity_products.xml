@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="25dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/nametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Name"
+            android:layout_marginTop="13dp"
+            android:text="@string/Quantity"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Quantitytxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nametxt"
+            android:layout_marginTop="5dp"
+            android:text="@string/Quantity"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/Stocks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Quantity"
+            android:layout_marginTop="13dp"
+            android:text="@string/Stocks"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Stockstxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Quantitytxt"
+            android:layout_marginTop="6dp"
+            android:text="@string/Stocks"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/Utd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Stocks"
+            android:layout_marginTop="10dp"
+            android:text="@string/UTD"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Utdtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Stockstxt"
+            android:layout_marginTop="-1dp"
+            android:text="@string/Expiry"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Utdtxt"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Edit"
+                android:background="@color/brown"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Delete"
+                android:background="@color/brown"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/btnDelete"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">sari-sari List</string>
+    <string name="button1">Storage</string>
+    <string name="button2">Monitoring</string>
+    <string name="button3">Guides</string>
+    <string name="button4">other</string>
+    <string name="Name">Name</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Stocks">Box Stocks</string>
+    <string name="UTD">UTD</string>
+    <string name="Expiry">Expiry date</string>
+    <string name="Nametxt">Name:</string>
+    <string name="search">Sari-Sari List</string>
+</resources>
